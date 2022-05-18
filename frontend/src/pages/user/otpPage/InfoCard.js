@@ -18,7 +18,7 @@ const InfoCard=()=>{
        <div className="mt-6 mr-8  text-left text-base text-gray-500">
            <div className="mb-3">
                <span className="font-bold ">Name: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Mobile: </span>
@@ -30,34 +30,34 @@ const InfoCard=()=>{
            </div>
            <div className="mb-3">
                <span className="font-bold ">Detail : </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Detail: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Detail: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            
        </div>
        {/* <div className="mt-6 mr-16  text-base text-gray-500">
            <div className="mb-3">
                <span className="font-bold ">Name: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Name: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Name: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            <div className="mb-3">
                <span className="font-bold ">Name: </span>
-               <span className="ml-4">Prabhjot Singh</span>
+               <span className="ml-4">Paras Guglani</span>
            </div>
            
        </div> */}

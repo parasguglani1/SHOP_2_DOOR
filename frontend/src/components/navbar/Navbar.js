@@ -71,7 +71,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/pendingPaymentsShopkeeper" className="nav-links" onClick={closeMobileMenu}>
-              Pending Payments- shop
+              Pending Payments 
             </Link>
           </li>
           <li className="nav-item">

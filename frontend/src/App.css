@@ -15,7 +15,7 @@
 .row{
   display: flex;
   justify-content: space-between;
-
+}
   /***    General     ***/
 * {
     box-sizing: border-box;
@@ -159,7 +159,7 @@ form span {
 .home-page-title {
     color: #222
 }
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

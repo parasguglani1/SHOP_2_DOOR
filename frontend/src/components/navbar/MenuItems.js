@@ -19,4 +19,5 @@ export const MenuItems = [
     path: "/payments",
     cName: "dropdown-link",
   },
+  {}
 ];

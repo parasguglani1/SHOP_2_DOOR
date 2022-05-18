@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeCommon = () => {
   return (
-    <div><div class="container mx-auto p-5">
+    <div><div class="container2 mx-auto p-5">
     <div class="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base">
       <div class="flex flex-row justify-center">
         <div class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10 rounded-lg"></div>

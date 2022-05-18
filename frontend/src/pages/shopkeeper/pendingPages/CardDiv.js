@@ -11,7 +11,7 @@ const CardDiv = () => {
         <Card bg="light" border="primary" style={{ width: "18rem" }}>
           <Card.Img variant="top" src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80" />
           <Card.Body>
-            <Card.Title>Jaspreet Singh</Card.Title>
+            <Card.Title>Paras Guglani</Card.Title>
             <ListGroup variant="flush">
               <ListGroup.Item>Sector 36 - sector 14</ListGroup.Item>
               <ListGroup.Item>Products: rice,lays,wheat</ListGroup.Item>

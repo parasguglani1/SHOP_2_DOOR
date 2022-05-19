@@ -1,4 +1,5 @@
 import React from "react";
+import profilepic from "./profile-pic.png"
 
 const Profile = () => {
   return (
@@ -9,8 +10,8 @@ const Profile = () => {
             <div class="mb-4">
               <img
                 class="rounded-full md:w-80"
-                src="https://avatars.githubusercontent.com/u/5550850?v=4"
-                alt="brad"
+                src={profilepic}
+                alt="paras"
               />
             </div>
             <div>
@@ -18,9 +19,8 @@ const Profile = () => {
                 Paras Guglani
               </h1>
               <p class="text-slate-100 text-lg tracking-wide mb-6 md:max-w-lg">
-                Commutes daily from kharar to Chandigarh University. 
-                <br></br>2
-                year experience
+                Commutes daily from kharar to Chandigarh University.
+                <br></br>2 year experience
               </p>
               <button class="border-2 px-6 py-4 rounded-md border-indigo-600 text-slate-100 hover:bg-indigo-600 hover:text-indigo-100 transition duration-75">
                 Get QR CODE
@@ -35,7 +35,7 @@ const Profile = () => {
           </div>
           <div class="bg-slate-600 p-6 rounded-md mb-4">
             <span class="text-slate-400 text-md">Ratings</span>
-            <h2 class="text-slate-100 text-2xl font-semibold">3.5/5</h2>
+            <h2 class="text-slate-100 text-2xl font-semibold">4.5/5</h2>
           </div>
           <div class="bg-slate-600 p-6 rounded-md mb-4">
             <span class="text-slate-400 text-md">Total earning</span>

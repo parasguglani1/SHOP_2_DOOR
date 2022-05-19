@@ -2,7 +2,7 @@ const cors = require('cors');
 const express = require('express');
 //       Add a stripe key
 const stripe = require('stripe')('sk_test_V7PA9zJ4KkMfgIcWQVy5Hr9o00u9N87QHf');
-const uuid = require('uuid/v4');
+const uuid = require('uuid');
 
 const app = express();
 
@@ -31,7 +31,7 @@ app.post('/payment', (req, res) => {
             currency: 'usd',
             customer: customer.id,
             receipt_emal: token.email,
-            description: `Purchase Of ${product.name}`,
+            description: `Purchase Of Rs{product.name}`,
             shipping: {
                 name: token.card.name,
                 address: {

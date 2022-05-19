@@ -37,15 +37,15 @@ const MainCard = () => {
                     </div>
                     <div className="mb-3">
                       <span className="font-bold ">Detail : </span>
-                      <span className="ml-4">Paras Guglani</span>
+                      <span className="ml-4">xyz</span>
                     </div>
                     <div className="mb-3">
                       <span className="font-bold ">Detail: </span>
-                      <span className="ml-4">Paras Guglani</span>
+                      <span className="ml-4">xyz</span>
                     </div>
                     <div className="mb-3">
                       <span className="font-bold ">Detail: </span>
-                      <span className="ml-4">Paras Guglani</span>
+                      <span className="ml-4">ctc</span>
                     </div>
                   </div>
                   {/* <div className="mt-6 mr-16  text-base text-gray-500">

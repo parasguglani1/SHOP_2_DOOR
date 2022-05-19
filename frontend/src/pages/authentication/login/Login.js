@@ -34,7 +34,7 @@ const Login = () => {
                     <input type="password" name="password" required />
                 </p>
                 <p className="mt-8">
-                        <input type="checkbox" name="checkbox" id="checkbox"  onClick={adminClick} /> <span>admin </span>.
+                        <input type="checkbox" name="checkbox" id="checkbox"  onClick={adminClick} /> <span>Shopkeeper</span>.
                     </p>
                 <p>
                     <button id="sub_btn" className="mt-8" onClick={submit}>Login</button>

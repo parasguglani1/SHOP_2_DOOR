@@ -9,7 +9,7 @@ const Signup = () => {
     }
     const submit=()=>{
         if(admin){
-            navigate('/adminHome')
+            navigate("/infoPage");
         }
         else{
             navigate('/userHome')
@@ -34,7 +34,7 @@ const Signup = () => {
                         <input type="password" name="password" requiredc />
                     </p>
                     <p className="mt-8">
-                        <input type="checkbox" name="checkbox" id="checkbox"  onClick={adminClick} /> <span>admin </span>.
+                        <input type="checkbox" name="checkbox" id="checkbox"  onClick={adminClick} /> <span>Shopkeeper </span>.
                     </p>
                     <p className="mt-8">
                         <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer">terms of service</a></span>.

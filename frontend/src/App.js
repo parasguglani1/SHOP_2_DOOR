@@ -16,16 +16,17 @@ import forgotPass from "./pages/authentication/forgotPass";
 import Profile from "./pages/user/profile/Profile";
 import ShowUsers from "./pages/shopkeeper/showUsers/ShowUsers";
 import PendingPages from "./pages/shopkeeper/pendingPages/PendingPages";
+import ContactForm from "./pages/ContactForm";
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
-     <Routes>
+      <Navbar />
+      <Routes>
         <Route path="/" element={<HomeCommon />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Signup />} />
-        <Route path="/forget-password" component={ forgotPass } />
+        <Route path="/forget-password" component={forgotPass} />
         <Route path="/userHome" element={<UserHomePage />} />
         <Route path="/userProfile" element={<Profile />} />
         <Route exact path="/allocateUser" element={<CartPage />} />
@@ -35,7 +36,12 @@ function App() {
         <Route exact path="/shopMap" element={<Shopmap />} />
         <Route exact path="/infoPage" element={<InfoPage />} />
         <Route exact path="/allUsers" element={<ShowUsers />} />
-        <Route exact path="/pendingPaymentsShopkeeper" element={<PendingPages />} />
+        <Route
+          exact
+          path="/pendingPaymentsShopkeeper"
+          element={<PendingPages />}
+        />
+        <Route exact path="/contact-us" element={<ContactForm />} />
       </Routes>
     </div>
   );

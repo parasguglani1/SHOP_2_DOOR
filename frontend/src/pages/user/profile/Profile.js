@@ -18,7 +18,8 @@ const Profile = () => {
                 Paras Guglani
               </h1>
               <p class="text-slate-100 text-lg tracking-wide mb-6 md:max-w-lg">
-                Commutes daily from kharar to Chandigarh University by bike. 2
+                Commutes daily from kharar to Chandigarh University. 
+                <br></br>2
                 year experience
               </p>
               <button class="border-2 px-6 py-4 rounded-md border-indigo-600 text-slate-100 hover:bg-indigo-600 hover:text-indigo-100 transition duration-75">

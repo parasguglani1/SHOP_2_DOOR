@@ -54,10 +54,10 @@ function Navbar() {
             
           >
             {/* <Link to="/Orders" className="nav-links" onClick={closeMobileMenu}> */}
-            <Link to="/Orders" className="nav-links" onClick={clicked}>
-              Orders <i className="fas fa-caret-down" />
+            <Link to="/Register" className="nav-links" onClick={clicked}>
+              Signup 
             </Link>
-            {dropdown && <Dropdown />}
+            {/* {dropdown && <Dropdown />} */}
           </li>
           <li className="nav-item">
             <Link to="/userProfile" className="nav-links" onClick={closeMobileMenu}>

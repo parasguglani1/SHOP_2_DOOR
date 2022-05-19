@@ -2,10 +2,19 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+
 
 
 const CardDiv = () => {
   
+   let navigate = useNavigate();
+   const routeChange = () => {
+     let path = '';
+     navigate(path);
+   };
   return (
     <div>
       <div className="div">
@@ -22,9 +31,10 @@ const CardDiv = () => {
               <ListGroup.Item>UID: 20125454</ListGroup.Item>
             </ListGroup>
             <div className="buttons">
-              <Button className="button" variant="success">
+              <Link to="/userProfile" className="btn btn-primary">
                 Show Profile
-              </Button>
+              </Link>
+
               {/* <Button className="button" variant="primary">
                 Pay Now
               </Button> */}

@@ -94,7 +94,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              user-PP
+              Shops
             </Link>
           </li>
           <li>
